@@ -1,0 +1,16 @@
+{
+  "name": "ava-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "nyc ava",
+    "test2": "nyc --reporter=lcov --reporter=text-summary ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nyc": "^15.1.0"
+  }
+}
